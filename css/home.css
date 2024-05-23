@@ -10,12 +10,6 @@ nav {
     padding: 1rem 2rem;
   }
   
-  .logo {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #fffefe;
-    text-decoration: none;
-  }
   
   nav ul {
     list-style: none;
@@ -34,7 +28,14 @@ nav {
     font-weight: 500;
     padding:10px;
   }
-  
+  .logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fffefe;
+    text-decoration: none;
+    border:2px solid white;
+    border-radius: 10px;
+  }
   nav a:hover {
     background-color: #585656;
   }
