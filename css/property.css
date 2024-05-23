@@ -46,3 +46,27 @@
     width:80vw;
     margin:auto;
 }
+
+  @media (max-width: 1000px){
+    .property-listing{
+        width:95vw;
+    }
+    .property-card{
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+    }
+    .property-details,.property-image{
+        width:100%;
+        height:auto;
+    }
+  }
+  @media (max-width: 1000px){
+    
+    .property-card{
+        
+        flex-direction: column;
+        
+    }
+    
+  }
