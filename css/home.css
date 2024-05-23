@@ -3,7 +3,7 @@
     padding: 0;
 }
 nav {
-    background-color: #cbbcbc;
+    background-color: #111111;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,7 +13,7 @@ nav {
   .logo {
     font-size: 1.2rem;
     font-weight: bold;
-    color: #000;
+    color: #fffefe;
     text-decoration: none;
   }
   
@@ -30,7 +30,7 @@ nav {
   
   nav a {
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     font-weight: 500;
     padding:10px;
   }
@@ -40,7 +40,7 @@ nav {
   }
   @media (max-width: 768px){
     nav{
-        height:fit-content;
+        height:70px;
     }
     nav ul li{
         margin:10px;
@@ -59,7 +59,7 @@ nav {
   
   .hero {
     text-align: center;
-    padding:0;
+    padding: 0;
     background-color: #f5f5f5;
     position: relative;
   }
@@ -164,5 +164,4 @@ nav {
     background-color: #333;
     color: #fff;
   }
-
 
